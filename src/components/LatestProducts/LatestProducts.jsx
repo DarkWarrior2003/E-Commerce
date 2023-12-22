@@ -5,14 +5,15 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import {Pagination, Navigation} from 'swiper/modules'
+import {Pagination, Navigation, FreeMode} from 'swiper/modules'
 const LatestProducts = () => {
   return (
     <div className="lg:px-10 px-6 pb-10">
       <h2 className=" text-white pb-4 text-2xl">LATEST PRODUCTS</h2>
       <Swiper
           style={{"--swiper-navigation-size": "30px","--swiper-navigation-color": "yellow","--swiper-pagination-color":"yellow"}}
-          modules={[Pagination, Navigation]}
+          modules={[Pagination, Navigation, FreeMode]}
+          freeMode
           slidesPerView={1}
           spaceBetween={20}
           autoplay={{
