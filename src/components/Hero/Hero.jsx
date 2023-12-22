@@ -71,7 +71,7 @@ const Hero = () => {
             </div></div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className=" rounded-lg relative overflow-hidden p-6 " style={{
+          <div className=" rounded-lg h-full relative overflow-hidden p-6 " style={{
               background:
                 "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
             }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
@@ -84,7 +84,7 @@ const Hero = () => {
             </div></div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className=" rounded-lg relative overflow-hidden p-6 " style={{
+          <div className=" rounded-lg h-full relative overflow-hidden p-6 " style={{
               background:
                 "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
             }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
@@ -97,7 +97,7 @@ const Hero = () => {
             </div></div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className=" rounded-lg relative overflow-hidden p-6 " style={{
+          <div className=" rounded-lg h-full relative overflow-hidden p-6 " style={{
               background:
                 "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
             }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
@@ -109,19 +109,8 @@ const Hero = () => {
               <div className=" text-[20px] pt-8 text-yellow-300">SHOP NOW</div>
             </div></div>
           </SwiperSlide>
-          <SwiperSlide>
-          <div className=" rounded-lg relative overflow-hidden p-6 " style={{
-              background:
-                "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
-            }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
-            <div className="flex h-full gap-4 z-10 flex-col max-w-[232px]">
-              <div>SPECIAL OFFER</div>
-              <div className="text-[25px] save  font-medium">
-                SAVE 20% ON YOUR FIRST ORDER
-              </div>
-              <div className=" text-[20px] pt-8 text-yellow-300">SHOP NOW</div>
-            </div></div>
-          </SwiperSlide>
+          
+          
         </Swiper>
         
               

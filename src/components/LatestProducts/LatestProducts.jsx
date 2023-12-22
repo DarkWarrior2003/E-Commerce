@@ -41,7 +41,7 @@ const LatestProducts = () => {
           // scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
-          className=" pt-14 "
+          className=" pt-14 transition-all duration-700"
         >
         <SwiperSlide>
         <div
