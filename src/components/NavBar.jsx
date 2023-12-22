@@ -39,7 +39,7 @@ const NavBar = () => {
           </button>
         </div>
       </div>
-      <h2 className="text-white lg:text-xl text-sm">Need Help? Call 123456789</h2>
+      <h2 className="text-white lg:text-xl text-xs">Need Help? Call 123456789</h2>
     </div>
   );
 };

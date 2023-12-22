@@ -2,6 +2,12 @@ import React from "react";
 import img1 from "../assets/2.png";
 import img2 from "../assets/4.png"
 import img3 from "../assets/5.png"
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import {Pagination, Navigation} from 'swiper/modules'
 const Hero = () => {
   return (
     <div className="  grid lg:grid-cols-3 gap-4  p-6 lg:p-10 text-white">
@@ -32,7 +38,27 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className=" rounded-lg relative overflow-hidden p-6 " style={{
+        <Swiper
+          style={{"--swiper-navigation-size": "30px","--swiper-navigation-color": "yellow","--swiper-pagination-color":"yellow"}}
+          modules={[Pagination, Navigation]}
+          
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          
+          
+          // pagination={{ clickable: true }}
+          // scrollbar={{ draggable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+          className=" max-w-full"
+        >
+          <SwiperSlide>
+          <div className=" rounded-lg h-full relative overflow-hidden p-6 " style={{
               background:
                 "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
             }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
@@ -43,6 +69,62 @@ const Hero = () => {
               </div>
               <div className=" text-[20px] pt-8 text-yellow-300">SHOP NOW</div>
             </div></div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className=" rounded-lg relative overflow-hidden p-6 " style={{
+              background:
+                "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
+            <div className="flex h-full gap-4 z-10 flex-col max-w-[232px]">
+              <div>SPECIAL OFFER</div>
+              <div className="text-[25px] save  font-medium">
+                SAVE 20% ON YOUR FIRST ORDER
+              </div>
+              <div className=" text-[20px] pt-8 text-yellow-300">SHOP NOW</div>
+            </div></div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className=" rounded-lg relative overflow-hidden p-6 " style={{
+              background:
+                "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
+            <div className="flex h-full gap-4 z-10 flex-col max-w-[232px]">
+              <div>SPECIAL OFFER</div>
+              <div className="text-[25px] save  font-medium">
+                SAVE 20% ON YOUR FIRST ORDER
+              </div>
+              <div className=" text-[20px] pt-8 text-yellow-300">SHOP NOW</div>
+            </div></div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className=" rounded-lg relative overflow-hidden p-6 " style={{
+              background:
+                "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
+            <div className="flex h-full gap-4 z-10 flex-col max-w-[232px]">
+              <div>SPECIAL OFFER</div>
+              <div className="text-[25px] save  font-medium">
+                SAVE 20% ON YOUR FIRST ORDER
+              </div>
+              <div className=" text-[20px] pt-8 text-yellow-300">SHOP NOW</div>
+            </div></div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className=" rounded-lg relative overflow-hidden p-6 " style={{
+              background:
+                "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            }}><img src={img2} className="  w-[60%] absolute  -top-1 -right-11 opacity-40" alt="" />
+            <div className="flex h-full gap-4 z-10 flex-col max-w-[232px]">
+              <div>SPECIAL OFFER</div>
+              <div className="text-[25px] save  font-medium">
+                SAVE 20% ON YOUR FIRST ORDER
+              </div>
+              <div className=" text-[20px] pt-8 text-yellow-300">SHOP NOW</div>
+            </div></div>
+          </SwiperSlide>
+        </Swiper>
+        
+              
         <div className="grid  gap-4">
           <div
             className="   rounded-[8px] overflow-hidden relative p-6"

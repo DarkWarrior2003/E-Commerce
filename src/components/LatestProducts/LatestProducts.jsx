@@ -9,7 +9,7 @@ import {Pagination, Navigation} from 'swiper/modules'
 const LatestProducts = () => {
   return (
     <div className="lg:px-10 px-6 pb-10">
-      <h2 className=" text-white pb-4 text-xl">LATEST PRODUCTS</h2>
+      <h2 className=" text-white pb-4 text-2xl">LATEST PRODUCTS</h2>
       <Swiper
           style={{"--swiper-navigation-size": "30px","--swiper-navigation-color": "yellow","--swiper-pagination-color":"yellow"}}
           modules={[Pagination, Navigation]}
@@ -48,7 +48,7 @@ const LatestProducts = () => {
         className="  cursor-pointer h-[362px] rounded-[8px] overflow-hidden relative"
         style={{
           background:
-            "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            "linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(18,15,15,1) 80%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
         }}
       >
         <div className=" w-full h-[200px] flex items-center justify-center relative">
@@ -75,7 +75,7 @@ const LatestProducts = () => {
         className=" cursor-pointer h-[362px] rounded-[8px] overflow-hidden relative"
         style={{
           background:
-            "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            "linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(18,15,15,1) 80%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
         }}
       >
         <div className=" w-full h-[200px] flex items-center justify-center relative">
@@ -102,7 +102,7 @@ const LatestProducts = () => {
         className=" cursor-pointer h-[362px] rounded-[8px] overflow-hidden relative"
         style={{
           background:
-            "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            "linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(18,15,15,1) 80%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
         }}
       >
         <div className=" w-full h-[200px] flex items-center justify-center relative">
@@ -129,7 +129,7 @@ const LatestProducts = () => {
         className=" cursor-pointer h-[362px] rounded-[8px] overflow-hidden relative"
         style={{
           background:
-            "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            "linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(18,15,15,1) 80%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
         }}
       >
         <div className=" w-full h-[200px] flex items-center justify-center relative">
@@ -156,7 +156,7 @@ const LatestProducts = () => {
         className=" cursor-pointer h-[362px] rounded-[8px] overflow-hidden relative"
         style={{
           background:
-            "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            "linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(18,15,15,1) 80%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
         }}
       >
         <div className=" w-full h-[200px] flex items-center justify-center relative">
@@ -183,7 +183,7 @@ const LatestProducts = () => {
         className=" cursor-pointer h-[362px] rounded-[8px] overflow-hidden relative"
         style={{
           background:
-            "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            "linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(18,15,15,1) 80%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
         }}
       >
         <div className=" w-full h-[200px] flex items-center justify-center relative">
@@ -210,7 +210,7 @@ const LatestProducts = () => {
         className=" cursor-pointer h-[362px] rounded-[8px] overflow-hidden relative"
         style={{
           background:
-            "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            "linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(18,15,15,1) 80%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
         }}
       >
         <div className=" w-full h-[200px] flex items-center justify-center relative">
@@ -237,7 +237,7 @@ const LatestProducts = () => {
         className=" cursor-pointer h-[362px] rounded-[8px] overflow-hidden relative"
         style={{
           background:
-            "linear-gradient(90deg, rgba(68,64,73,1) 0%, rgba(60,63,64,1) 0%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
+            "linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(18,15,15,1) 80%, rgba(18,15,22,1) 100%, rgba(0,0,0,1) 100%, rgba(10,19,20,1) 100%)",
         }}
       >
         <div className=" w-full h-[200px] flex items-center justify-center relative">
