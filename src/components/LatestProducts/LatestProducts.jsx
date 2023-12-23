@@ -43,9 +43,7 @@ const LatestProducts = () => {
         }}
         navigation
         // pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
+        // scrollbar={{ draggable: true }}        
         className=" pt-14 transition-all duration-700"
       >
         {data && data.map((e)=>(

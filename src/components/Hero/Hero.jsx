@@ -8,6 +8,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import {Pagination, Navigation, FreeMode} from 'swiper/modules'
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="  grid lg:grid-cols-3 gap-4  p-6 lg:p-10 text-white">
@@ -20,9 +21,9 @@ const Hero = () => {
           </div>
 
           <div className="flex pt-3 pb-7 px-4 flex-col">
-            <a href="/" className="hover:text-gray-400 my-2">
+            <Link to="/dslr" className="hover:text-gray-400 my-2">
               DSLR
-            </a>
+            </Link>
             <a href="/" className="hover:text-gray-400 my-2">
               MIRRORLESS
             </a>
