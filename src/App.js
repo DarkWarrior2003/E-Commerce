@@ -1,17 +1,25 @@
+import "./App.css";
+import Footer from "./components/Footer";
 
-import './App.css';
-import Footer from './components/Footer';
-import Hero from './components/Hero/Hero';
-import LatestProducts from './components/LatestProducts/LatestProducts';
-import NavBar from './components/NavBar';
+import NavBar from "./components/NavBar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Product from "./components/Product/Product";
 
+import Home from "./components/Home/Home";
 function App() {
   return (
     <>
-    <NavBar/>
-    <Hero/>
-    <LatestProducts/>
-    <Footer/>
+      <NavBar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/product" element={<Product />}>
+            <Route path=":productID" element={<Product />}></Route>
+          </Route>
+        </Routes>
+
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
