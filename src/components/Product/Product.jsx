@@ -6,7 +6,7 @@ import { data } from '../../data';
 const Product = () => {
     
     const {productID} = useParams();
-    const product = data.find((e)=> e.title=== productID)
+    const product = data.find((e)=> e.id=== Number(productID))
     
   return (
     <div>

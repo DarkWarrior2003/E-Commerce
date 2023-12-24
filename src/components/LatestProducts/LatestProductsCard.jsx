@@ -8,7 +8,7 @@ const LatestProductsCard = (props) => {
     });
   };
   return (
-    <Link to={`/product/${props.title}`}>
+    <Link to={`/product/${props.id}`}>
       <div
         className="  cursor-pointer h-[260px] lg:h-[400px] rounded-[8px] overflow-hidden relative"
         style={{
