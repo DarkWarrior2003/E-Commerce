@@ -16,12 +16,18 @@ const SearchForm = () => {
       setsearchTerm("");
     }
   }
+  const handleclick = (e)=>{
+    if (e.key === 'Enter') {
+      handleSubmit(e);
+    }
+  }
   return (
     <>
      <div className="hidden lg:block">
           <div   className="relative  flex  flex-wrap items-stretch">
             <input
               type="search"
+              onKeyDown={handleclick}
               onChange={handlesearch}
               className="relative  m-0 w-[40em]   bg-white text-black -mr-0.5 block min-w-0 flex-auto rounded-l border border-solid border-neutral-300 bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6]  outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary "
               placeholder="Search for a product..."
@@ -59,6 +65,7 @@ const SearchForm = () => {
         <div className="relative   flex items-stretch">
           <input
             type="search"
+            onKeyDown={handleclick}
             onChange={handlesearch}
             className="m-0 relative w-[15em] lg:w-[30em]  placeholder-[#797878] placeholder:text-sm    bg-white text-black mr-2 block flex-auto rounded-[4px] border border-solid border-neutral-300 bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6]  outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary "
             placeholder="Search for a product"
